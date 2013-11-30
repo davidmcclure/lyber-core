@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency "daemons"
   s.add_dependency "dor-services", ">=0.3.0"
   s.add_dependency "bagit", ">=0.1.0"
-  s.add_dependency "nokogiri", "=1.4.3.1"
+  s.add_dependency "nokogiri"
   s.add_dependency "solr-ruby", ">=0.0.8"
   s.add_dependency "solrizer", ">= 0.3.1"   # There was a bug in 0.3.0, we need at least the version after
   s.add_dependency "stomp"
